@@ -1226,3 +1226,74 @@ i.home-product-item__fill {
 .home-product__pagination {
   margin: 48px 0 32px 0;
 }
+
+/* footer */
+
+.footer {
+  padding-top: 12px;
+  border-top: 3px solid var(--primary-color);
+  background-color: var(--white-color);
+}
+
+.footer__heading {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.footer__list {
+  list-style: none;
+  color: #373737;
+  padding-left: 0;
+}
+
+.footer__item {
+  padding: 8px 0;
+}
+
+.footer__item__link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #737373;
+}
+
+.footer__item__link:hover {
+  color: var(--primary-color);
+}
+
+.footer__item__link i {
+  margin-right: 4px;
+}
+
+.footer__download {
+  display: flex;
+}
+
+.footer__download-qr {
+  width: 88px;
+  height: 88px;
+  border: 1px solid var(--border-color);
+}
+
+.footer__download-app {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer__download-app img {
+  height: 24px;
+}
+
+.footer__bottom {
+  padding: 8px 0;
+  margin-top: 36px;
+  background-color: #ddd;
+}
+
+.footer__bottom p {
+  font-size: 1.4rem;
+  margin: 0;
+  text-align: center;
+}
